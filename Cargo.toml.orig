@@ -1,32 +1,3 @@
-[package]
-name = "android_logger"
-version = "0.10.1"
-authors = ["The android_logger Developers"]
-license = "MIT OR Apache-2.0"
-readme = "README.md"
-repository = "https://github.com/Nercury/android_logger-rs"
-description = """
-A logging implementation for `log` which hooks to android log output.
-"""
-keywords = ["android", "bindings", "log", "logger"]
-categories = ["api-bindings"]
-
-[features]
-default = ["regex"]
-regex = ["env_logger/regex"]
-
-[dependencies]
-lazy_static = "1.4"
-
-[dependencies.log]
-version = "0.4"
-
-[dependencies.android_log-sys]
-version = "0.2"
-
-[dependencies.env_logger]
-version = "0.8"
-default-features = false
-
-[badges]
-travis-ci = { repository = "Nercury/android_logger-rs" }
+version https://git-lfs.github.com/spec/v1
+oid sha256:2d303ebff402a04d92767d9bd1f25d4e70f4ba80fc1230ad5cec4e6bb136f19c
+size 698
